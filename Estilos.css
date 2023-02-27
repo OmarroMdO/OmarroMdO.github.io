@@ -12,7 +12,7 @@ html{
 /* SECCION INICIO */
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url(https://img.freepik.com/vector-gratis/banner-moderno-diseno-abstracto-baja-poli_1048-14340.jpg?w=996&t=st=1677342621~exp=1677343221~hmac=1ffb2703069dcfd85eb3658460e908ba231180c926a626ac08dd1007f36be669);
+    url(https://img.freepik.com/foto-gratis/pared-ladrillo-negro-textura-fondo_53876-63572.jpg?w=740&t=st=1677458162~exp=1677458762~hmac=4e5d1cb811aa4cca5cd775bef5248a2b5ec9f850ff198bcd0db63a3d268ed912);
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -30,7 +30,7 @@ html{
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
-    background-color: rgb(76, 77, 150);
+    background-color: black;
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -39,7 +39,7 @@ html{
 }
 .inicio .contenido-seccion header nav a{
     display: block;
-    color: white;
+    color: crimson;
     text-decoration: none;
     margin-bottom: 10px;
     font-weight: bold;
@@ -52,11 +52,11 @@ html{
     text-shadow: 0 0 35px #fff;
 }
 .inicio .contenido-seccion header .logo .color{
-    color: rgb(47, 116, 206);
+    color: crimson;
 }
 .inicio .contenido-seccion header .nav-bar{
     position: fixed;
-    background-color: rgb(26, 226, 233);
+    background-color: crimson;
     font-size: 20px;
     width: 50px;
     height: 50px;
@@ -74,13 +74,14 @@ html{
 .inicio .contenido-seccion .Info h1{
     font-size: 3rem;
     letter-spacing: 5px;
+    box-shadow: 0 0 10px #fff
 }
 .inicio .contenido-seccion .Info h2{
     font-weight: bolder;
     font-size: 20px;
-    margin-top: -10px;
+    margin-top: 20px;
     letter-spacing: 5px;
-    color: black;
+    color: crimson;
 }
 .inicio .contenido-seccion .redes{
     margin: 20px 0;
@@ -122,9 +123,10 @@ html{
 }
 /*SECCION SOBRE MI*/
 .sobremi{
-    background-color: #aa8bce;
+    background-color: black;
     padding: 140px 0 100px 0;
     text-align: center;
+    color: #fff;
 }
 .sobremi .contenido-seccion{
     max-width: 1000px;
@@ -134,9 +136,10 @@ html{
 .sobremi .contenido-seccion h3{
     text-transform: uppercase;
     font-size: 25px;
+    color: crimson;
 }
 .sobremi .contenido-seccion .especial{
-    color: crimson;
+    color: #fff;
     font-weight: bolder;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -162,33 +165,38 @@ html{
 }
 /*SECCION RESUMEN*/
 .resumen{
-    background-color: #7175b1;
+    background-color: black;
     padding: 140px 0 100px 0;
     text-align: center;
+    color: #fff;
 }
 .resumen .contenido-seccion h3{
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 20px;
+    color: crimson;
 }
 .resumen .contenido-seccion .info{
     text-align: left;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    margin-left: 25px;
 }
 .resumen .contenido-seccion .info .col{
     width: 45%;
 }
 .resumen .contenido-seccion .info .col .titulo{
     display: inline-block;
-    color: rgb(14, 0, 3);
+    color: #fff;
     font-weight: bolder;
-    border: 2px solid crimson;
+    border: 4px solid crimson;
     padding: 10px;
 }
 .resumen .contenido-seccion .info .col table{
     margin-top: 30px;
     border-collapse: collapse;
+    display: block;
+    color: #fff;
 }
 
 .resumen .contenido-seccion .info .col table h4{

@@ -1,0 +1,264 @@
+/* FUENTES */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@300&display=swap');
+*{
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* SECCION INICIO */
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url(https://img.freepik.com/foto-gratis/pared-ladrillo-negro-textura-fondo_53876-63572.jpg?w=740&t=st=1677458162~exp=1677458762~hmac=4e5d1cb811aa4cca5cd775bef5248a2b5ec9f850ff198bcd0db63a3d268ed912);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0  10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+/* MENU LATERAL */
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: crimson;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* ***** */
+.inicio .contenido-seccion header .logo{
+    font-weight: bolder;
+    font-size: 4.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 35px #fff;
+}
+.inicio .contenido-seccion header .logo .color{
+    color: crimson;
+}
+.inicio .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color: crimson;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #fff;
+}
+.inicio .contenido-seccion .Info{
+    padding-bottom: 130px;
+}
+.inicio .contenido-seccion .Info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    box-shadow: 0 0 10px #fff
+}
+.inicio .contenido-seccion .Info h2{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    color: crimson;
+}
+.inicio .contenido-seccion .redes{
+    margin: 20px 0;
+}
+.inicio .contenido-seccion .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(14, 4, 0);
+    color: crimson;
+    border: 1px solid rgb(158, 16, 40);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.inicio .contenido-seccion .redes a:hover{
+    color: #fff;
+    background-color: crimson;
+    box-shadow: 0 0 20px #fff;
+}
+.inicio ,.contenido-seccion .foto{
+    position: relative;
+}
+.inicio .contenido-seccion .foto img{
+    max-width: 200px;
+    border-radius: 100%;
+    border: 5px solid crimson;
+    position: absolute;
+    left: 50%;
+    top:  -100px;
+    transform: translateX(-50%);
+}
+/*Estilos Generales*/
+.titulo-seccion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+/*SECCION SOBRE MI*/
+.sobremi{
+    background-color: black;
+    padding: 140px 0 100px 0;
+    text-align: center;
+    color: #fff;
+}
+.sobremi .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.sobremi .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: crimson;
+}
+.sobremi .contenido-seccion .especial{
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sobremi .contenido-seccion .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sobremi .contenido-seccion .fila .col i{
+    color: crimson;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid crimson;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.sobremi .contenido-seccion .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 10px 0;
+}
+/*SECCION RESUMEN*/
+.resumen{
+    background-color: black;
+    padding: 140px 0 100px 0;
+    text-align: center;
+    color: #fff;
+}
+.resumen .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: crimson;
+}
+.resumen .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.resumen .contenido-seccion .info .col{
+    width: 45%;
+}
+.resumen .contenido-seccion .info .col .titulo{
+    display: inline-block;
+    color: #fff;
+    font-weight: bolder;
+    border: 4px solid crimson;
+    padding: 10px;
+}
+.resumen .contenido-seccion .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+    display: block;
+    color: #fff;
+}
+
+.resumen .contenido-seccion .info .col table h4{
+    margin-top: 10px;
+}
+.resumen .contenido-seccion .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+/*SECCION CONTACTO*/
+.contacto{
+    background-color: black;
+    padding: 140px 0 100px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+text-transform: uppercase;
+font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 10%;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: crimson;
+}
+
+/* SECCION RESPONSIVE */
+@media screen and (max-width:800px){
+    .inicio .contenido-seccion .fila{
+        display: block;
+    }
+}
+.sobremi .contenido-seccion .fila{
+    display: block;
+}
+.sobremi .contenido-seccion .fila .col{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+/*.resumen .contenido-seccion .info{
+    display: block;
+}
+.resumen .contenido-seccion .info .col{
+    width: 90px;
+    margin: auto;
+}.resumen .contenido-seccion .info .col .titulo{
+    display: block;
+    text-align: center;
+}
+.resumen .contenido-seccion .info .col table{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}*/
